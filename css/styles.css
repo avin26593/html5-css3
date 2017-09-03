@@ -1,6 +1,282 @@
+
 body{
-	background-color: #333300;
+	font-family: sans-serif;
 }
-h1{
-	color: Blue;
+li{
+	display:inline; 
+	padding-right: 10px; 
+	float:right;
+
+	
+}
+.container_12{
+	width: 100%;
+}
+header{
+	position: fixed;
+	padding-top: 20px;
+	width:100%;
+	margin-left: 0px;
+	background-color: #05132b;
+	height: 60px;
+	
+	z-index: 1000;
+
+}
+.superhero{
+	background-color: pink;
+	padding-top: 100px;
+	height:300px;
+}
+.super{
+	width:100%;
+	height: 100%
+}
+h3{
+	float: right;
+	padding-right: 50px;
+	padding-top: 50px;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+}
+.head{
+	
+	width:200px;
+	color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    padding-left: 50px;
+    padding-top: 0px;
+    float: left;
+}
+.main{
+	padding-top: 150px:;
+}
+ul a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+}
+
+ul a:hover {
+	text-decoration:none;
+	text-decoration-color: #a4ed50;
+	color: #a4ed50;
+}
+label{
+	display: block;
+}
+textarea{
+
+	width:400;
+	height: 200;
+}
+.container_12 .grid_8 {
+    float: right;
+}
+.naver{
+	text-align: right;
+	color: White;
+	font-weight: bolder;
+	color: white;
+	float: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-right: 30px;
+}
+.grid_4{
+	background-color: none;
+	height: 50px;
+}
+h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+
+.data{
+	align-content: right;
+}
+.bottom{
+	padding-top: 30px;
+	padding-left: 30px;
+	background-color: #f2f2f2;
+}
+.lefts{
+	background-color: none;
+	height:200px;
+	padding-top: 100px;
+}
+.rights{
+	background-color: none;
+	height: 200px;
+	padding-left: 200px;
+}
+form{
+	padding-right: 30px;
+}
+
+#para_f{
+	margin-bottom: 0;
+	font-family: 'Satisfy', cursive; 
+	color: white;
+	font-size: 16px;
+	padding-top: 0;
+}
+
+.one{
+	text-align: center;
+	text-align: justify;
+	padding-top: 30px;
+	height: 500px;
+	padding-left: 80px;
+}
+/*.neon{
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+} */
+.d_night{
+	padding-left: 250px;
+}
+.rses{
+	padding-left: 150px;
+}
+
+.batman{
+	padding-left: 250px;
+	height: 400px;
+	width: 220px;
+}
+.and{
+	padding-left: 150px;
+	height: 60px;
+	width:200px;
+
+}
+.iosim{
+	padding-left: 150px;
+	height: 60px;
+	width: 200px;
+	padding-top: 10px;
+
+}
+.first{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 110px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.grid_6{
+	padding-left: 50px;
+}
+.grid_5{
+	
+	height:100px;
+	padding-top: 0;
+	padding-left: 220px;
+}
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+.bottom{
+	padding-left: 120px;
+	height:345px;
+}
+button{
+	color: blue;
+	background-color: black;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.hero_image{ 
+   /*position: absolute; */
+   width: 100%; /* for IE 6 */
+    padding-top: 77px;
+    height: 500px;
+}
+.text{ 
+   position: absolute; 
+   top: 430px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+}
+.text span { 
+   color: white; 
+   font-family: 'Roboto', cursive; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+.foots{
+	background-color: #333338;
+	height: 210px;
+	color:white;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+}
+#social  a{
+text-decoration: none;
+
+}
+
+.icons {
+width: 35px;
+padding: 3px;
+border: 0;
+box-shadow: 0;
+display: inline;
+float: center;
 }
